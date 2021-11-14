@@ -10,7 +10,7 @@
     <Copyright>© 2021 CloudTheWolf Ltd</Copyright>
     <Description>Shared Interfaces for CloudTheWolf.DSharpPlus.Scaffolding</Description>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <AssemblyVersion>1.0.0.4</AssemblyVersion>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
     <FileVersion>$(AssemblyVersion)</FileVersion>
     <Version>$(AssemblyVersion)-beta</Version>
     <PackageIcon>logo.png</PackageIcon>
@@ -19,13 +19,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CloudTheWolf.DSharpPlus.Scaffolding.Logging" Version="1.0.0.3" />
-    <PackageReference Include="DSharpPlus" Version="4.2.0-nightly-01004" />
-    <PackageReference Include="DSharpPlus.CommandsNext" Version="4.2.0-nightly-01004" />
-    <PackageReference Include="DSharpPlus.Interactivity" Version="4.2.0-nightly-01004" />
-    <PackageReference Include="DSharpPlus.Lavalink" Version="4.2.0-nightly-01004" />
-    <PackageReference Include="DSharpPlus.Rest" Version="4.2.0-nightly-01004" />
-    <PackageReference Include="DSharpPlus.VoiceNext" Version="4.2.0-nightly-01004" />
+    <PackageReference Include="CloudTheWolf.DSharpPlus.Scaffolding.Logging" Version="1.0.1.9" />
+    <PackageReference Include="DSharpPlus" Version="4.2.0-nightly-01044" />
+    <PackageReference Include="DSharpPlus.CommandsNext" Version="4.2.0-nightly-01044" />
+    <PackageReference Include="DSharpPlus.Interactivity" Version="4.2.0-nightly-01044" />
+    <PackageReference Include="DSharpPlus.Lavalink" Version="4.2.0-nightly-01044" />
+    <PackageReference Include="DSharpPlus.Rest" Version="4.2.0-nightly-01044" />
+    <PackageReference Include="DSharpPlus.VoiceNext" Version="4.2.0-nightly-01044" />
     <PackageReference Include="DSharpPlus.VoiceNext.Natives" Version="1.0.0" />
   </ItemGroup>
 
