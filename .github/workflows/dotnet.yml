@@ -22,4 +22,4 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Test
-      run: dir C:\actions-runner
+      run: dir ./actions-runner
