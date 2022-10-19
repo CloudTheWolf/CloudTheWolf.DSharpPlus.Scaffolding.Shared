@@ -3,6 +3,7 @@ using DSharpPlus.CommandsNext;
 using DSharpPlus.Interactivity;
 using DSharpPlus.VoiceNext;
 using DSharpPlus.Lavalink;
+using DSharpPlus.SlashCommands;
 
 namespace CloudTheWolf.DSharpPlus.Scaffolding.Shared.Interfaces
 {
@@ -38,6 +39,11 @@ namespace CloudTheWolf.DSharpPlus.Scaffolding.Shared.Interfaces
         /// <see cref="InteractivityExtension"/>
         /// </summary>
         LavalinkConfiguration LvalinkConfig { get; set; }
+
+        /// <summary>
+        /// <see cref="SlashCommandsConfiguration"/>
+        /// </summary>
+        SlashCommandsConfiguration SlashCommandsConfig { get; set; }
     }
 
 }
