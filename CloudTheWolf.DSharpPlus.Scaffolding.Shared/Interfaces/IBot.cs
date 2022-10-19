@@ -41,9 +41,9 @@ namespace CloudTheWolf.DSharpPlus.Scaffolding.Shared.Interfaces
         LavalinkConfiguration LvalinkConfig { get; set; }
 
         /// <summary>
-        /// <see cref="SlashCommandsConfiguration"/>
+        /// <see cref="SlashCommandsExtension"/>
         /// </summary>
-        SlashCommandsConfiguration SlashCommandsConfig { get; set; }
+        SlashCommandsExtension SlashCommandsExt { get; set; }
     }
 
 }
