@@ -4,6 +4,7 @@ using DSharpPlus.Interactivity;
 using DSharpPlus.VoiceNext;
 using DSharpPlus.Lavalink;
 using DSharpPlus.SlashCommands;
+using System.Collections.Generic;
 
 namespace CloudTheWolf.DSharpPlus.Scaffolding.Shared.Interfaces
 {
@@ -15,11 +16,11 @@ namespace CloudTheWolf.DSharpPlus.Scaffolding.Shared.Interfaces
         /// <summary>
         ///<see cref="CommandsNextExtension"/>
         /// </summary>
-        CommandsNextExtension Commands { get; set;}
+        IReadOnlyDictionary<int, CommandsNextExtension> Commands { get; set;}
         /// <summary>
         /// <see cref="InteractivityExtension"/>
         /// </summary>
-        InteractivityExtension Interactivity { get; set; }
+        IReadOnlyDictionary<int, InteractivityExtension> Interactivity { get; set; }
 
         /// <summary>
         /// <see cref="DiscordShardedClient"/>
@@ -29,7 +30,7 @@ namespace CloudTheWolf.DSharpPlus.Scaffolding.Shared.Interfaces
         /// <summary>
         /// <see cref="VoiceNextExtension"/>
         /// </summary>
-        VoiceNextExtension Voice { get; set; }
+        IReadOnlyDictionary<int, VoiceNextExtension> Voice { get; set; }
         /// <summary>
         /// <see cref="DiscordRestClient"/>
         /// </summary>
@@ -38,12 +39,12 @@ namespace CloudTheWolf.DSharpPlus.Scaffolding.Shared.Interfaces
         /// <summary>
         /// <see cref="InteractivityExtension"/>
         /// </summary>
-        LavalinkConfiguration LavalinkConfig { get; set; }
+        IReadOnlyDictionary<int, LavalinkConfiguration> LavalinkConfig { get; set; }
 
         /// <summary>
         /// <see cref="SlashCommandsExtension"/>
         /// </summary>
-        SlashCommandsExtension SlashCommandsExt { get; set; }
+        IReadOnlyDictionary<int, SlashCommandsExtension> SlashCommandsExt { get; set; }
     }
 
 }
