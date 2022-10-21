@@ -22,9 +22,9 @@ namespace CloudTheWolf.DSharpPlus.Scaffolding.Shared.Interfaces
         InteractivityExtension Interactivity { get; set; }
 
         /// <summary>
-        /// <see cref="DiscordClient"/>
+        /// <see cref="DiscordShardedClient"/>
         /// </summary>
-        DiscordClient Client { get; set; }
+        DiscordShardedClient Client { get; set; }
 
         /// <summary>
         /// <see cref="VoiceNextExtension"/>
