@@ -5,7 +5,7 @@ using CloudTheWolf.DSharpPlus.Scaffolding.Logging;
 
 namespace CloudTheWolf.DSharpPlus.Scaffolding.Shared.Interfaces
 {
-    public interface IShardPlugin : IPlugin
+    public interface IShardPlugin
     {
         /// <summary>
         /// Initilize Plugin Module
