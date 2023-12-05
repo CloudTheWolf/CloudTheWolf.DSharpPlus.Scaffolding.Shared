@@ -64,13 +64,13 @@ namespace CloudTheWolf.DSharpPlus.Scaffolding.Shared.Tests
             var actualSlashCommands = bot.SlashCommandsExt;
 
             // Assert
-            Assert.AreEqual(client, actualClient);
-            Assert.AreEqual(rest, actualRest);
-            Assert.AreEqual(commands, actualCommands);
-            Assert.AreEqual(interactivity, actualInteractivity);
-            Assert.AreEqual(voice, actualVoice);
-            Assert.AreEqual(lavalink, actualLavalink);
-            Assert.AreEqual(slashCommands, actualSlashCommands);
+            Assert.Equals(client, actualClient);
+            Assert.Equals(rest, actualRest);
+            Assert.Equals(commands, actualCommands);
+            Assert.Equals(interactivity, actualInteractivity);
+            Assert.Equals(voice, actualVoice);
+            Assert.Equals(lavalink, actualLavalink);
+            Assert.Equals(slashCommands, actualSlashCommands);
         }
     }
 }
