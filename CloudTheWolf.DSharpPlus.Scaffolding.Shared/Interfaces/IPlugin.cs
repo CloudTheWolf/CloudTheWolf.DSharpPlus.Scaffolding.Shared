@@ -2,13 +2,14 @@
 using DSharpPlus;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using System;
 
 namespace CloudTheWolf.DSharpPlus.Scaffolding.Shared.Interfaces
 {
     /// <summary>
     /// Plugin Interface
     /// </summary>
-    public interface IPlugin
+    public interface IPlugin : IDisposable
     {
         /// <summary>
         /// Module Name
@@ -31,6 +32,11 @@ namespace CloudTheWolf.DSharpPlus.Scaffolding.Shared.Interfaces
         /// <param name="discordConfiguration"></param>
         /// <param name="applicationConfig"></param>
         void InitPlugin(IBot bot, ILogger<Logger> logger, DiscordConfiguration discordConfiguration, IConfigurationRoot applicationConfig);
+
+        /// <summary>
+        /// Clean up and unload the plugin. This should be used to release any resources and perform clean-up before the plugin is unloaded.
+        /// </summary>
+        void UnloadPlugin(IBot bot, ILogger<Logger> logger, DiscordConfiguration discordConfiguration);
 
     }
 }
