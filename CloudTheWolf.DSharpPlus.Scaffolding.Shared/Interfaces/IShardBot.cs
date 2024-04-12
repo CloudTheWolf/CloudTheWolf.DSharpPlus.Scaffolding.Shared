@@ -2,9 +2,9 @@
 using DSharpPlus.CommandsNext;
 using DSharpPlus.Interactivity;
 using DSharpPlus.VoiceNext;
-using DSharpPlus.Lavalink;
 using DSharpPlus.SlashCommands;
 using System.Collections.Generic;
+using Lavalink4NET.Players;
 
 namespace CloudTheWolf.DSharpPlus.Scaffolding.Shared.Interfaces
 {
@@ -39,9 +39,9 @@ namespace CloudTheWolf.DSharpPlus.Scaffolding.Shared.Interfaces
         IReadOnlyDictionary<int, VoiceNextExtension> Voice { get; set; }
 
         /// <summary>
-        /// <see cref="InteractivityExtension"/>
+        /// <see cref="LavalinkPlayerOptions"/>
         /// </summary>
-        IReadOnlyDictionary<int, LavalinkConfiguration> LavalinkConfig { get; set; }
+        IReadOnlyDictionary<int, LavalinkPlayerOptions> LavalinkPlayerOptions { get; set; }
 
         /// <summary>
         /// <see cref="SlashCommandsExtension"/>
