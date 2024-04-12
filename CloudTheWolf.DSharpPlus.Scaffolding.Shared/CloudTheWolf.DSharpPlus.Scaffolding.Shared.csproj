@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net6.0</TargetFrameworks>
+    <TargetFrameworks>net8.0</TargetFrameworks>
     <DebugType>embedded</DebugType>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
@@ -20,15 +20,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CloudTheWolf.DSharpPlus.Scaffolding.Logging" Version="2.1.0.3" />
-    <PackageReference Include="DSharpPlus" Version="4.4.6" />
-    <PackageReference Include="DSharpPlus.CommandsNext" Version="4.4.6" />
-    <PackageReference Include="DSharpPlus.Interactivity" Version="4.4.6" />
-    <PackageReference Include="DSharpPlus.Lavalink" Version="4.4.6" />
-    <PackageReference Include="DSharpPlus.Rest" Version="4.4.6" />
-    <PackageReference Include="DSharpPlus.SlashCommands" Version="4.4.6" />
-    <PackageReference Include="DSharpPlus.VoiceNext" Version="4.4.6" />
+    <PackageReference Include="CloudTheWolf.DSharpPlus.Scaffolding.Logging" Version="2.1.0.4" />
+    <PackageReference Include="DSharpPlus" Version="5.0.0-nightly-02204" />
+    <PackageReference Include="DSharpPlus.CommandsNext" Version="5.0.0-nightly-02204" />
+    <PackageReference Include="DSharpPlus.Interactivity" Version="5.0.0-nightly-02204" />
+    <PackageReference Include="DSharpPlus.Rest" Version="5.0.0-nightly-02204" />
+    <PackageReference Include="DSharpPlus.SlashCommands" Version="5.0.0-nightly-02204" />
+    <PackageReference Include="DSharpPlus.VoiceNext" Version="5.0.0-nightly-02204" />
     <PackageReference Include="DSharpPlus.VoiceNext.Natives" Version="1.0.0" />
+    <PackageReference Include="Lavalink4NET.DSharpPlus" Version="4.0.19-beta.5" />
   </ItemGroup>
 
   <ItemGroup>
