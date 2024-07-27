@@ -16,7 +16,7 @@ namespace CloudTheWolf.DSharpPlus.Scaffolding.Shared.Interfaces
         /// <summary>
         ///<see cref="CommandsNextExtension"/>
         /// </summary>
-        CommandsNextExtension Commands { get; set;}
+        CommandsNextExtension CommandsNext { get; set;}
         /// <summary>
         /// <see cref="InteractivityExtension"/>
         /// </summary>
@@ -50,7 +50,7 @@ namespace CloudTheWolf.DSharpPlus.Scaffolding.Shared.Interfaces
         /// <summary>
         /// <see cref="CommandsExtension"/>
         /// </summary>
-        CommandsExtension CommandsExt { get; set; }
+        CommandsExtension Commands { get; set; }
     }
 
 }
