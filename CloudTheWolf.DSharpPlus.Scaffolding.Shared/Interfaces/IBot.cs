@@ -2,8 +2,9 @@
 using DSharpPlus.CommandsNext;
 using DSharpPlus.Interactivity;
 using DSharpPlus.VoiceNext;
-using DSharpPlus.SlashCommands;
+using DSharpPlus.Commands;
 using Lavalink4NET.Players;
+using System;
 
 namespace CloudTheWolf.DSharpPlus.Scaffolding.Shared.Interfaces
 {
@@ -24,7 +25,13 @@ namespace CloudTheWolf.DSharpPlus.Scaffolding.Shared.Interfaces
         /// <summary>
         /// <see cref="DiscordClient"/>
         /// </summary>
+        [Obsolete("Use ClientBuilder instead")]
         DiscordClient Client { get; set; }
+
+        /// <summary>
+        /// <see cref="ClientBuilder"/>
+        /// </summary>
+        DiscordClientBuilder ClientBuilder { get; set; }
 
         /// <summary>
         /// <see cref="VoiceNextExtension"/>
@@ -41,9 +48,9 @@ namespace CloudTheWolf.DSharpPlus.Scaffolding.Shared.Interfaces
         LavalinkPlayerOptions LavalinkPlayerOptions { get; set; }
 
         /// <summary>
-        /// <see cref="SlashCommandsExtension"/>
+        /// <see cref="CommandsExtension"/>
         /// </summary>
-        SlashCommandsExtension SlashCommandsExt { get; set; }
+        CommandsExtension CommandsExt { get; set; }
     }
 
 }
