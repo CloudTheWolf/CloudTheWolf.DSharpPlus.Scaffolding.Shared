@@ -1,10 +1,8 @@
 ﻿using DSharpPlus;
-using DSharpPlus.CommandsNext;
 using DSharpPlus.Interactivity;
 using DSharpPlus.VoiceNext;
 using DSharpPlus.Commands;
 using Lavalink4NET.Players;
-using System;
 
 namespace CloudTheWolf.DSharpPlus.Scaffolding.Shared.Interfaces
 {
@@ -14,10 +12,6 @@ namespace CloudTheWolf.DSharpPlus.Scaffolding.Shared.Interfaces
     public interface IBot
     {
         /// <summary>
-        ///<see cref="CommandsNextExtension"/>
-        /// </summary>
-        CommandsNextExtension CommandsNext { get; set;}
-        /// <summary>
         /// <see cref="InteractivityExtension"/>
         /// </summary>
         InteractivityExtension Interactivity { get; set; }
@@ -25,7 +19,6 @@ namespace CloudTheWolf.DSharpPlus.Scaffolding.Shared.Interfaces
         /// <summary>
         /// <see cref="DiscordClient"/>
         /// </summary>
-        [Obsolete("Use ClientBuilder instead")]
         DiscordClient Client { get; set; }
 
         /// <summary>
