@@ -21,11 +21,11 @@
 
   <ItemGroup>
     <PackageReference Include="CloudTheWolf.DSharpPlus.Scaffolding.Logging" Version="3.0.0" />
-    <PackageReference Include="DSharpPlus" Version="5.0.0-nightly-02339" />
-    <PackageReference Include="DSharpPlus.Commands" Version="5.0.0-nightly-02339" />
-    <PackageReference Include="DSharpPlus.Interactivity" Version="5.0.0-nightly-02339" />
-    <PackageReference Include="DSharpPlus.Rest" Version="5.0.0-nightly-02339" />
-    <PackageReference Include="DSharpPlus.VoiceNext" Version="5.0.0-nightly-02339" />
+    <PackageReference Include="DSharpPlus" Version="5.0.0-nightly-02345" />
+    <PackageReference Include="DSharpPlus.Commands" Version="5.0.0-nightly-02345" />
+    <PackageReference Include="DSharpPlus.Interactivity" Version="5.0.0-nightly-02345" />
+    <PackageReference Include="DSharpPlus.Rest" Version="5.0.0-nightly-02345" />
+    <PackageReference Include="DSharpPlus.VoiceNext" Version="5.0.0-nightly-02345" />
     <PackageReference Include="DSharpPlus.VoiceNext.Natives" Version="1.0.0" />
     <PackageReference Include="Lavalink4NET.DSharpPlus" Version="4.0.20" />
   </ItemGroup>
