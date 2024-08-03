@@ -1,7 +1,7 @@
-﻿using CloudTheWolf.DSharpPlus.Scaffolding.Logging;
-using DSharpPlus;
+﻿using DSharpPlus;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using Serilog.Core;
 
 namespace CloudTheWolf.DSharpPlus.Scaffolding.Shared.Interfaces
 {
