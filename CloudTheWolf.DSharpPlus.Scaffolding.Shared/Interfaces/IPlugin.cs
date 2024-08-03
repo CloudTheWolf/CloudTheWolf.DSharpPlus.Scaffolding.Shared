@@ -1,7 +1,6 @@
 ﻿using DSharpPlus;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
-using Serilog.Core;
+using Serilog;
 
 namespace CloudTheWolf.DSharpPlus.Scaffolding.Shared.Interfaces
 {
@@ -30,7 +29,7 @@ namespace CloudTheWolf.DSharpPlus.Scaffolding.Shared.Interfaces
         /// <param name="logger"></param>
         /// <param name="discordConfiguration"></param>
         /// <param name="applicationConfig"></param>
-        void InitPlugin(IBot bot, ILogger<Logger> logger, DiscordConfiguration discordConfiguration, IConfigurationRoot applicationConfig);
+        void InitPlugin(IBot bot, ILogger logger, DiscordConfiguration discordConfiguration, IConfigurationRoot applicationConfig);
 
     }
 }
