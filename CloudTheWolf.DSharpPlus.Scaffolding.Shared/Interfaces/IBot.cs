@@ -1,7 +1,10 @@
-﻿using DSharpPlus;
+﻿using System;
+using System.Collections.Generic;
+using DSharpPlus;
 using DSharpPlus.Interactivity;
 using DSharpPlus.VoiceNext;
 using DSharpPlus.Commands;
+using DSharpPlus.Commands.Trees;
 using Lavalink4NET.Players;
 
 namespace CloudTheWolf.DSharpPlus.Scaffolding.Shared.Interfaces
@@ -43,7 +46,13 @@ namespace CloudTheWolf.DSharpPlus.Scaffolding.Shared.Interfaces
         /// <summary>
         /// <see cref="CommandsExtension"/>
         /// </summary>
+        [Obsolete("Use CommandsList instead")]
         CommandsExtension Commands { get; set; }
+
+        /// <summary>
+        /// <see cref="List{T}"/> of <see cref="Command"/> objects
+        /// </summary>
+        List<Command> CommandsList { get; set; }
     }
 
 }
