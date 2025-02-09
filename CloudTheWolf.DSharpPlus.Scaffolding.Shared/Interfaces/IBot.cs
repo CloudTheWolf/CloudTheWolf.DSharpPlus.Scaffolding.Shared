@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using CloudTheWolf.DSharpPlus.Scaffolding.Worker.Registry;
 using DSharpPlus;
 using DSharpPlus.Interactivity;
 using DSharpPlus.VoiceNext;
