@@ -50,9 +50,9 @@ namespace CloudTheWolf.DSharpPlus.Scaffolding.Shared.Interfaces
         CommandsExtension Commands { get; set; }
 
         /// <summary>
-        /// <see cref="List{T}"/> of <see cref="Command"/> objects
+        /// <see cref="List{T}"/> of <see cref="CommandBuilder"/> objects
         /// </summary>
-        List<Command> CommandsList { get; set; }
+        List<CommandBuilder> CommandsList { get; set; }
     }
 
 }
