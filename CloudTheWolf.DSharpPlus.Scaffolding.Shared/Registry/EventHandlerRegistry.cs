@@ -12,7 +12,7 @@ namespace CloudTheWolf.DSharpPlus.Scaffolding.Worker.Registry
         /// Register an Event Handler
         /// </summary>
         /// <param name="contribution"></param>
-        public static void Register(Action<EventHandlingBuilder> contribution)
+        public void Register(Action<EventHandlingBuilder> contribution)
         {
             _contributions.Add(contribution);
         }
@@ -21,7 +21,7 @@ namespace CloudTheWolf.DSharpPlus.Scaffolding.Worker.Registry
         /// Configure All Event Handlers
         /// </summary>
         /// <param name="builder"></param>
-        public static void ConfigureAll(EventHandlingBuilder builder)
+        public void ConfigureAll(EventHandlingBuilder builder)
         {
             foreach (var contribution in _contributions)
             {
