@@ -53,6 +53,12 @@ namespace CloudTheWolf.DSharpPlus.Scaffolding.Shared.Interfaces
         /// <see cref="List{T}"/> of <see cref="CommandBuilder"/> objects
         /// </summary>
         List<CommandBuilder> CommandsList { get; set; }
+
+        /// <summary>
+        /// Expose the EventHandlerRegistry so plugins can register handlers
+        /// </summary>
+        EventHandlerRegistry EventHandlerRegistry { get; }
+
     }
 
 }
