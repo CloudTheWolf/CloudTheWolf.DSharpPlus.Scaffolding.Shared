@@ -34,10 +34,6 @@ namespace CloudTheWolf.DSharpPlus.Scaffolding.Shared.Interfaces
         /// <see cref="VoiceNextExtension"/>
         /// </summary>
         VoiceNextExtension Voice { get; set; }
-        /// <summary>
-        /// <see cref="DiscordRestClient"/>
-        /// </summary>
-        DiscordRestClient Rest { get; set; }
 
         /// <summary>
         /// <see cref="LavalinkPlayerOptions"/>
