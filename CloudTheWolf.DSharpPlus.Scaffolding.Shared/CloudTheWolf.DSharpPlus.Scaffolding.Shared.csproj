@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net9.0</TargetFrameworks>
+    <TargetFrameworks>net10.0</TargetFrameworks>
     <DebugType>embedded</DebugType>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
@@ -20,16 +20,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CloudTheWolf.DSharpPlus.Scaffolding.Logging" Version="3.0.0.8" />
-    <PackageReference Include="DSharpPlus" Version="5.0.0-nightly-02557" />
-    <PackageReference Include="DSharpPlus.Commands" Version="5.0.0-nightly-02557" />
-    <PackageReference Include="DSharpPlus.Interactivity" Version="5.0.0-nightly-02557" />
+    <PackageReference Include="CloudTheWolf.DSharpPlus.Scaffolding.Logging" Version="3.1.0.2" />
+    <PackageReference Include="DSharpPlus" Version="5.0.0-nightly-02561" />
+    <PackageReference Include="DSharpPlus.Commands" Version="5.0.0-nightly-02561" />
+    <PackageReference Include="DSharpPlus.Interactivity" Version="5.0.0-nightly-02561" />
     <PackageReference Include="DSharpPlus.Natives.Opus" Version="1.5.2.24" />
     <PackageReference Include="DSharpPlus.Natives.Sodium" Version="1.0.20.17" />
     <PackageReference Include="DSharpPlus.Natives.Zstd" Version="1.5.7.21" />
-    <PackageReference Include="DSharpPlus.VoiceNext" Version="5.0.0-nightly-02557" />
-    <PackageReference Include="Lavalink4NET.DSharpPlus" Version="4.0.27" />
-    <PackageReference Include="System.Text.Json" Version="8.0.6" />
+    <PackageReference Include="DSharpPlus.VoiceNext" Version="5.0.0-nightly-02561" />
+    <PackageReference Include="Lavalink4NET.DSharpPlus" Version="4.1.0" />
   </ItemGroup>
 
   <ItemGroup>
