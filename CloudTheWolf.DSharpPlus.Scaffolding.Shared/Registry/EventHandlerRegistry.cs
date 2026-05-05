@@ -4,6 +4,9 @@ using System.Collections.Generic;
 
 namespace CloudTheWolf.DSharpPlus.Scaffolding.Worker.Registry
 {
+    /// <summary>
+    /// Registry of Event Handlers (<see cref="EventHandlingBuilder"/>)
+    /// </summary>
     public class EventHandlerRegistry
     {
         private static readonly List<Action<EventHandlingBuilder>> _contributions = [];
