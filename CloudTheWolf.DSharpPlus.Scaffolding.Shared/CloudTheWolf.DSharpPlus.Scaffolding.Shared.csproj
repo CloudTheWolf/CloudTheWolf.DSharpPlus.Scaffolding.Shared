@@ -7,28 +7,29 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>CloudTheWolf</Authors>
     <Product>$(SolutionName)</Product>
-    <Copyright>© 2021 CloudTheWolf Ltd</Copyright>
+    <Copyright>© 2026 CloudTheWolf Ltd</Copyright>
     <Description>Shared Interfaces for CloudTheWolf.DSharpPlus.Scaffolding</Description>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <AssemblyVersion>2.1.1.2</AssemblyVersion>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
     <FileVersion>$(AssemblyVersion)</FileVersion>
     <Version>$(AssemblyVersion)-beta</Version>
     <PackageIcon>logo.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIconUrl />
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <PackageReleaseNotes>Updated DSharpPlus Packages</PackageReleaseNotes>
+    <PackageReleaseNotes>Added async plugin lifecycle, plugin context, safer bot registration APIs, and named event handlers.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CloudTheWolf.DSharpPlus.Scaffolding.Logging" Version="3.1.0.2" />
-    <PackageReference Include="DSharpPlus" Version="5.0.0-nightly-02587" />
-    <PackageReference Include="DSharpPlus.Commands" Version="5.0.0-nightly-02587" />
-    <PackageReference Include="DSharpPlus.Interactivity" Version="5.0.0-nightly-02587" />
-    <PackageReference Include="DSharpPlus.Natives.Opus" Version="1.6.1.28" />
-    <PackageReference Include="DSharpPlus.Natives.Sodium" Version="1.0.21.20" />
-    <PackageReference Include="DSharpPlus.Natives.Zstd" Version="1.5.7.21" />
-    <PackageReference Include="DSharpPlus.VoiceNext" Version="5.0.0-nightly-02587" />
-    <PackageReference Include="Lavalink4NET.DSharpPlus" Version="4.2.1" />
+    <PackageReference Include="CloudTheWolf.DSharpPlus.Scaffolding.Logging" Version="3.2.0.5" />
+    <PackageReference Include="DSharpPlus" Version="5.0.0-nightly-02597" />
+    <PackageReference Include="DSharpPlus.Commands" Version="5.0.0-nightly-02597" />
+    <PackageReference Include="DSharpPlus.Interactivity" Version="5.0.0-nightly-02597" />
+    <PackageReference Include="DSharpPlus.Natives.Opus" Version="1.6.1.31" />
+    <PackageReference Include="DSharpPlus.Natives.Sodium" Version="1.0.22.22" />
+    <PackageReference Include="DSharpPlus.Natives.Zstd" Version="1.5.7.22" />
+    <PackageReference Include="DSharpPlus.VoiceNext" Version="5.0.0-nightly-02597" />
+    <PackageReference Include="Lavalink4NET.DSharpPlus" Version="4.2.2" />
   </ItemGroup>
 
   <ItemGroup>
